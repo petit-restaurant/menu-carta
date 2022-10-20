@@ -975,6 +975,15 @@ section {
   justify-content: space-between;
   position: relative;
 }
+.menu .menu-content-offer {
+  margin-left: 85px;
+  margin-left: 20px;
+
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
 
 .menu .menu-content::after {
   content: "......................................................................"
