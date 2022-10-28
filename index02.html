@@ -21,9 +21,18 @@
     <!-- Vendor CSS Files -->
     <link href="animate.min.css" rel="stylesheet">
     <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap-icons.css" rel="stylesheet">
 
     <link href="style-noimages.css" rel="stylesheet">
 
+
+
+    <!-- =======================================================
+  * Template Name: Petit - v3.9.1
+  * Template URL: https://bootstrapmade.com/Petit-restaurant-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
@@ -33,8 +42,8 @@
         <div class="container d-flex justify-content-center justify-content-md-between">
 
             <div class="contact-info d-flex align-items-center">
-                <i class="d-flex align-items-center"><span>+53 5 8000224</span></i>
-                <i class="d-flex align-items-center ms-4"><span> Todos los dias: 8AM - 12PM</span></i>
+                <i class="bi bi-phone d-flex align-items-center"><span>+53 5 8000224</span></i>
+                <i class="bi bi-clock d-flex align-items-center ms-4"><span> Todos los dias: 8AM - 12PM</span></i>
             </div>
 
             <div class="languages d-none d-md-flex align-items-center">
@@ -47,18 +56,20 @@
     <header id="header" class="fixed-top d-flex align-items-cente">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
-            <a href="index.html" class="logo me-auto me-lg-0"><img src="petit_profile.png" alt="" class="img-fluid"><img
-                    src="pumkin-logo.png" alt=""></a>
-
+            <!-- <h1 class="logo me-auto me-lg-0"><a href="index.html">Petit</a></h1> -->
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <a href="index.html" class="logo me-auto me-lg-0"><img src="petit_profile.png" alt="" class="img-fluid"></a>
 
             <nav id="navbar" class="navbar order-last order-lg-0">
                 <ul>
                     <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <!-- <li><a class="nav-link scrollto" href="#about">About</a></li> -->
                     <li><a class="nav-link scrollto" href="#menu">Menú</a></li>
                     <li><a class="nav-link scrollto" href="#contact">Contáctenos</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
+            <!-- <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex">Book a table</a> -->
 
         </div>
     </header><!-- End Header -->
@@ -73,6 +84,7 @@
 
                     <div class="btns">
                         <a href="#menu" class="btn-menu animated fadeInUp scrollto">Nuestro Menú</a>
+                        <!-- <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">Book a Table</a> -->
                     </div>
                 </div>
 
@@ -113,7 +125,9 @@
                         </ul>
                     </div>
                 </div>
-
+                <!--                 <div class="section-title">
+                        <p>Nuestro Delicioso Menú</p>
+                    </div> -->
                 <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
 
                     <!-- BRUNCH START -->
@@ -427,7 +441,7 @@
                             <a href="#">Agua Natural</a><span>$120</span>
                         </div>
                         <div class="menu-ingredients">
-                            500 ml
+                            300 ml
                         </div>
 
                     </div>
@@ -927,16 +941,6 @@
                         </div>
                     </div>
                     <div class="col-lg-6 menu-item filter-coffe">
-                        <div class="menu-content-offer">
-                            <span class="badge bg-success text-bg-dark">Nueva Oferta</span>
-                        </div>
-
-                        <div class="menu-content">
-                            <a href="#">Café PETIT</a><span>$100</span>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 menu-item filter-coffe">
 
                         <div class="menu-content">
                             <a href="#">Affogato</a><span>$250</span>
@@ -955,15 +959,24 @@
                 </div>
         </section><!-- End Menu Section -->
 
+        <!-- <div class="img-footer menu section-bg">
+            <img src="torwe2.png" alt="">
+        </div>
+ -->
+
+
+
         <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact">
-
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
-                    <h2>Contáctenos</h2>
+                    <h2>Contact</h2>
+                    <p>Contact Us</p>
                 </div>
             </div>
+
+
 
             <div class="container" data-aos="fade-up">
 
@@ -972,25 +985,37 @@
                     <div class="col-lg-4">
                         <div class="info">
                             <div class="address">
+                                <i class="bi bi-geo-alt"></i>
                                 <h4>Dirección:</h4>
                                 <p>Calle Martí # 143a, Pinar del Río 20100 Cuba</p>
                             </div>
 
                             <div class="open-hours">
+                                <i class="bi bi-clock"></i>
                                 <h4>Abierto:</h4>
                                 <p>
                                     Todos los Dias:<br>
                                     8:00 AM - 12:00 PM
                                 </p>
                             </div>
+
+
+
                             <div class="phone">
+                                <i class="bi bi-phone"></i>
                                 <h4>Llamar a:</h4>
                                 <p>+53 5 8000224</p>
                             </div>
 
                         </div>
+
                     </div>
+
+
+
                 </div>
+
+
             </div>
         </section><!-- End Contact Section -->
 
@@ -998,17 +1023,28 @@
 
     <!-- ======= Footer ======= -->
     <footer id="footer">
-        <div class="halloween">
-            <img src="happy-funny-small.png" alt="" class="center">
+
+
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Petit</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/Petit-restaurant-template/ -->
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
         </div>
-
-
     </footer><!-- End Footer -->
 
     <div id="preloader"></div>
-    <a href="#menu" class="back-to-top d-flex align-items-center justify-content-center">^</a>
+    <a href="#menu" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
+    <script src="aos.js"></script>
     <script src="bootstrap.bundle.min.js"></script>
     <script src="isotope.pkgd.js"></script>
 
